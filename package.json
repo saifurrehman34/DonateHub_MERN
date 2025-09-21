@@ -1,0 +1,12 @@
+{
+  "name": "auto-git-commit",
+  "version": "1.0.0",
+  "description": "Auto-commit script that watches file changes and commits them automatically",
+  "scripts": {
+    "autocommit": "node dev-scripts/git-auto-commit/git-auto-commit.js"
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "vite": "^7.1.6"
+  }
+}
